@@ -151,3 +151,15 @@ int TransactionsList::getNumMoviesTransactions(const int movieId) const {
     }
     return count;
 }
+
+int TransactionsList::getNumMoviesNotReturned() const {
+    TransactionNode *current = head;
+    int count = 0;
+    while (current != NULL) {
+        if (!current->returned) {
+            count++;
+        }
+        current = current->next;
+    }
+    return count;
+}

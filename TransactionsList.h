@@ -12,6 +12,7 @@ class TransactionsList {
         bool movieEverRented( const int movieId ) const;
         int getNumTransactions() const;
         int getNumMoviesTransactions(const int movieId) const;
+        int getNumMoviesNotReturned() const;
     private:
         struct TransactionNode {
             int movieId;

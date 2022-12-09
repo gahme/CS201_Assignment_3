@@ -56,7 +56,7 @@ void MovieRentalSystem::addMovie( const int movieId, const int numCopies ) {
 // Remove a movie from the list of movies. If the movie does not exist, print an error message. If movie rented by any subscriber, print an error message.
 void MovieRentalSystem::removeMovie( const int movieId ) {
     if ( movies.getNumRented( movieId ) > 0 ) {
-        cout << "Movie rented by a subscriber" << endl;
+        cout << "Movie " << movieId << " cannot be removed -- at least one copy has not been returned" << endl;
     } else {
         movies.removeMovie( movieId );
     }
@@ -67,9 +67,10 @@ void MovieRentalSystem::removeSubscriber( const int subscriberId ) {
     if ( !subscribers.subscriberExists( subscriberId ) ) {
         cout << "Subscriber does not exist" << endl;
     } else if ( subscribers.getNumMoviesRented( subscriberId ) > 0 ) {
-        cout << "Subscriber has movies rented" << endl;
+        cout << "Subscriber " << subscriberId << " cannot be removed -- at least one movie has not been returned" << endl;
     } else {
         subscribers.removeSubscriber( subscriberId );
+        cout << "Subscriber " << subscriberId << " has been removed" << endl;
     }
 }
 

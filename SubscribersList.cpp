@@ -192,33 +192,25 @@ void SubscribersList::showSubscribersThatRentedMovie( const int movieId ) const 
     }
 }
 
-
-// void SubscribersList::showSubscribersThatRentedMovie( const int movieId ) const {
+// int SubscribersList::getNumMoviesRented( const int subscriberId ) const {
 //     SubscriberNode *current = head;
-//     bool found = false;
-//     while (current != NULL) {
-//         if (current->transactions.movieEverRented( movieId )) {
-//             if (!found) {
-//                 cout << "Movie " << movieId << " has been rented by the following subscribers:" << endl;
-//             }
-//             found = true;
-//             if (current->transactions.movieNotReturned( movieId )) {
-//                 cout << current->subscriberId << " not returned" << endl;
-//             } else {
-//                 cout << current->subscriberId << " returned" << endl;
-//             }
-//         }
+//     while (current != NULL && current->subscriberId < subscriberId) {
 //         current = current->next;
 //     }
+//     if (current != NULL && current->subscriberId == subscriberId) {
+//         return current->transactions.getNumTransactions();
+//     }
+//     return 0;
 // }
 
+// Get number of movies rented by subscriber that are not returned
 int SubscribersList::getNumMoviesRented( const int subscriberId ) const {
     SubscriberNode *current = head;
     while (current != NULL && current->subscriberId < subscriberId) {
         current = current->next;
     }
     if (current != NULL && current->subscriberId == subscriberId) {
-        return current->transactions.getNumTransactions();
+        return current->transactions.getNumMoviesNotReturned();
     }
     return 0;
 }

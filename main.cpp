@@ -55,19 +55,18 @@ int main( ) {
     MRS.showSubscribersWhoRentedMovie( 100 );
     MRS.showSubscribersWhoRentedMovie( 30 );
     MRS.showSubscribersWhoRentedMovie( 70 );
-    // cout << endl;
-    // MRS.removeMovie( 100 );
-    // cout << endl;
-    // MRS.removeSubscriber( 1111 );
-    // cout << endl;
-    // MRS.removeSubscriber( 5555 );
-    // cout << endl;
-    // MRS.removeSubscriber( 6666 );
-    // cout << endl;
-    // MRS.showAllSubscribers();
-    // cout << endl;
-    // MRS.showAllMovies();
-    // cout << endl;
-    // return 0;
+    cout << endl;
+    MRS.removeMovie( 100 );
+    cout << endl;
+    MRS.removeSubscriber( 1111 );
+    cout << endl;
+    MRS.removeSubscriber( 5555 );
+    MRS.removeSubscriber( 6666 );
+    cout << endl;
+    MRS.showAllSubscribers();
+    cout << endl;
+    MRS.showAllMovies();
+    cout << endl;
+    return 0;
 }
 
