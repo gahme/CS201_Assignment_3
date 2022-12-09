@@ -8,8 +8,10 @@ class TransactionsList {
         void addTransaction( const int movieId );
         void showTransactions() const;
         void returnMovie( const int movieId );
-        bool movieRented( const int movieId ) const;
+        bool movieNotReturned( const int movieId ) const;
+        bool movieEverRented( const int movieId ) const;
         int getNumTransactions() const;
+        int getNumMoviesTransactions(const int movieId) const;
     private:
         struct TransactionNode {
             int movieId;

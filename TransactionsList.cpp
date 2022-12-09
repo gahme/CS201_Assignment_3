@@ -19,6 +19,32 @@ TransactionsList::~TransactionsList() {
     }
 }
 
+// void TransactionsList::addTransaction( const int movieId ) {
+//     TransactionNode *newNode = new TransactionNode;
+//     newNode->movieId = movieId;
+//     newNode->returned = false;
+//     newNode->next = NULL;
+//     if (head == NULL) {
+//         head = newNode;
+//     } else {
+//         TransactionNode *current = head;
+//         TransactionNode *previous = NULL;
+//         while (current != NULL && current->movieId < movieId) {
+//             previous = current;
+//             current = current->next;
+//         }
+//         if (previous == NULL) {
+//             newNode->next = head;
+//             head = newNode;
+//         } else {
+//             newNode->next = current;
+//             previous->next = newNode;
+//         }
+//     }
+//     transactionCount++;
+// }
+
+// Add a transaction to the list. For same movieId, add the new transaction at the end.
 void TransactionsList::addTransaction( const int movieId ) {
     TransactionNode *newNode = new TransactionNode;
     newNode->movieId = movieId;
@@ -29,7 +55,7 @@ void TransactionsList::addTransaction( const int movieId ) {
     } else {
         TransactionNode *current = head;
         TransactionNode *previous = NULL;
-        while (current != NULL && current->movieId < movieId) {
+        while (current != NULL && current->movieId <= movieId) {
             previous = current;
             current = current->next;
         }
@@ -55,7 +81,7 @@ void TransactionsList::showTransactions() const {
         }
         current = current->next;
     }
-    cout << endl;
+    // cout << endl;
 }
 
 // void TransactionsList::returnMovie( const int movieId ) {
@@ -63,35 +89,65 @@ void TransactionsList::showTransactions() const {
 //     while (current != NULL && current->movieId < movieId) {
 //         current = current->next;
 //     }
-//     if (current != NULL && current->movieId == movieId) {
-//         if (current->returned) {
-//             cout << "Movie " << movieId << " has already been returned." << endl;
-//         } else {
+//     if (current != NULL && current->movieId == movieId && !current->returned) {
+//         // if (!current->returned) {
+//         //     cout << "In TL Movie " << movieId << " has already been returned." << endl;
+//         // } else {
 //             current->returned = true;
-//         }
 //     }
 // }
 
-// Return movie if it is rented. Just set the returned flag to true.
-// If the movie is not rented, do nothing.
+// Return a movie. For same movieId, return the first transaction.
 void TransactionsList::returnMovie( const int movieId ) {
     TransactionNode *current = head;
-    while (current != NULL && current->movieId < movieId) {
+    while (current != NULL && current->movieId <= movieId) {
+        if (current->movieId == movieId && !current->returned) {
+            current->returned = true;
+            break;
+        }
         current = current->next;
-    }
-    if (current != NULL && current->movieId == movieId) {
-        current->returned = true;
     }
 }
 
-bool TransactionsList::movieRented( const int movieId ) const{
+// Check if movie is rented and not returned. There can be multiple transactions for same movieId.
+bool TransactionsList::movieNotReturned( const int movieId ) const {
     TransactionNode *current = head;
-    while (current != NULL && current->movieId < movieId) {
+    bool found = false;
+    while (current != NULL && current->movieId <= movieId) {
+        if (current->movieId == movieId && !current->returned) {
+            found = true;
+        }
         current = current->next;
     }
-    return (current != NULL && current->movieId == movieId);
+    return found;
 }
+
+// Check if movie is ever rented. There can be multiple transactions for same movieId. Doesn't matter if it is returned or not.
+bool TransactionsList::movieEverRented( const int movieId ) const {
+    TransactionNode *current = head;
+    bool found = false;
+    while (current != NULL && current->movieId <= movieId) {
+        if (current->movieId == movieId) {
+            found = true;
+        }
+        current = current->next;
+    }
+    return found;
+}
+
 
 int TransactionsList::getNumTransactions() const{
     return transactionCount;
+}
+
+int TransactionsList::getNumMoviesTransactions(const int movieId) const {
+    TransactionNode *current = head;
+    int count = 0;
+    while (current != NULL && current->movieId <= movieId) {
+        if (current->movieId == movieId) {
+            count++;
+        }
+        current = current->next;
+    }
+    return count;
 }

@@ -118,6 +118,18 @@ void MovieRentalSystem::showMoviesRentedBy( const int subscriberId ) const{
     }
 }
 
+// Show all subscribers renting a movie. If the movie does not exist, print an error message. If no subscriber has rented the movie, print an error message. For each subscriber, print the subscriber id and whether the movie is returned or not.
+void MovieRentalSystem::showSubscribersWhoRentedMovie( const int movieId ) const{
+    if ( !movies.movieExists( movieId ) ) {
+        cout << "Movie " << movieId << " does not exist" << endl;
+    } else if ( movies.getNumRented( movieId ) == 0 ) {
+        cout << "Movie " << movieId << " has not been rented by any subscriber" << endl;
+    } else {
+        // For each subscriber, print the subscriber id and whether the movie is returned or not.
+        subscribers.showSubscribersThatRentedMovie( movieId );
+    }
+}
+
 // Show all movies.
 void MovieRentalSystem::showAllMovies() {
     movies.showAllMovies();

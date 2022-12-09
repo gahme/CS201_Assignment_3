@@ -13,7 +13,7 @@ class MovieRentalSystem {
         void rentMovie( const int subscriberId, const int movieId );
         void returnMovie( const int subscriberId, const int movieId );
         void showMoviesRentedBy ( const int subscriberId ) const;
-        // void showSubscribersWhoRentedMovie( const int movieId ) const;
+        void showSubscribersWhoRentedMovie( const int movieId ) const;
         void showAllMovies();
         void showAllSubscribers();
     private:

@@ -114,7 +114,7 @@ bool SubscribersList::subscriberExists( const int subscriberId ) const{
 bool SubscribersList::movieRentedToAnySubscriber( const int movieId ) const {
     SubscriberNode *current = head;
     while (current != NULL) {
-        if (current->transactions.movieRented( movieId )) {
+        if (current->transactions.movieNotReturned( movieId )) {
             return true;
         }
         current = current->next;
@@ -122,13 +122,26 @@ bool SubscribersList::movieRentedToAnySubscriber( const int movieId ) const {
     return false;
 }
 
+// bool SubscribersList::movieRentedBySubscriber( const int subscriberId, const int movieId ) const {
+//     SubscriberNode *current = head;
+//     while (current != NULL && current->subscriberId < subscriberId) {
+//         current = current->next;
+//     }
+//     if (current != NULL && current->subscriberId == subscriberId) {
+//     // if (current != NULL && current->subscriberId == subscriberId && current->transactions.movieRented( movieId )) {
+//         return current->transactions.movieRented( movieId );
+//     }
+//     return false;
+// }
+
+// Check if movie is rented by subscriber
 bool SubscribersList::movieRentedBySubscriber( const int subscriberId, const int movieId ) const {
     SubscriberNode *current = head;
     while (current != NULL && current->subscriberId < subscriberId) {
         current = current->next;
     }
     if (current != NULL && current->subscriberId == subscriberId) {
-        return current->transactions.movieRented( movieId );
+        return current->transactions.movieNotReturned( movieId );
     }
     return false;
 }
@@ -152,6 +165,52 @@ void SubscribersList::showAllSubscribers() const {
         current = current->next;
     }
 }
+
+// Display all subscribers that have rented a movie. If a subscriber has rented a movie more than once, display the subscriber that many times. Output should be in this format: 
+// Movie 100 has been rented by the following subscribers:
+// 1111 not returned
+// 1111 not returned
+// 2222 returned
+void SubscribersList::showSubscribersThatRentedMovie( const int movieId ) const {
+    SubscriberNode *current = head;
+    bool found = false;
+    while (current != NULL) {
+        if (current->transactions.movieEverRented( movieId )){ 
+            if (!found) {
+                cout << "Movie " << movieId << " has been rented by the following subscribers:" << endl;
+            }
+            found = true;
+            for (int i = 0; i < current->transactions.getNumMoviesTransactions(movieId); i++){
+                if (current->transactions.movieNotReturned( movieId )) {
+                    cout << current->subscriberId << " not returned" << endl;
+                } else {
+                    cout << current->subscriberId << " returned" << endl;
+                }
+            }
+        }
+        current = current->next;
+    }
+}
+
+
+// void SubscribersList::showSubscribersThatRentedMovie( const int movieId ) const {
+//     SubscriberNode *current = head;
+//     bool found = false;
+//     while (current != NULL) {
+//         if (current->transactions.movieEverRented( movieId )) {
+//             if (!found) {
+//                 cout << "Movie " << movieId << " has been rented by the following subscribers:" << endl;
+//             }
+//             found = true;
+//             if (current->transactions.movieNotReturned( movieId )) {
+//                 cout << current->subscriberId << " not returned" << endl;
+//             } else {
+//                 cout << current->subscriberId << " returned" << endl;
+//             }
+//         }
+//         current = current->next;
+//     }
+// }
 
 int SubscribersList::getNumMoviesRented( const int subscriberId ) const {
     SubscriberNode *current = head;
