@@ -9,7 +9,6 @@ class TransactionsList {
         void returnMovie( const int movieId );
         bool movieNotReturned( const int movieId ) const;
         bool movieEverRented( const int movieId ) const;
-        int getNumTransactions() const;
         int getNumMoviesTransactions(const int movieId) const;
         int getNumMoviesNotReturned() const;
     private:

@@ -10,7 +10,6 @@ class MoviesList {
         void returnMovie( const int movieId );
         void showAllMovies();
         bool movieExists( const int movieId ) const;
-        int getNumCopies( const int movieId ) const;
         int getNumRented( const int movieId ) const;
         int getNumAvailableCopies( const int movieId ) const;
     private:

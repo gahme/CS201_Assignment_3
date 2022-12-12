@@ -11,7 +11,6 @@ class SubscribersList{
         void rentMovie( const int subscriberId, const int movieId );
         void returnMovie( const int subscriberId, const int movieId );
         bool subscriberExists( const int subscriberId ) const;
-        bool movieRentedToAnySubscriber( const int movieId ) const;
         bool movieRentedBySubscriber( const int subscriberId, const int movieId ) const;
         void showSubscriber( const int subscriberId ) const;
         void showAllSubscribers() const;

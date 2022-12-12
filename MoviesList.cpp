@@ -120,18 +120,6 @@ bool MoviesList::movieExists( const int movieId ) const{
     return (current != NULL && current->movieId == movieId);
 }
 
-int MoviesList::getNumCopies( const int movieId ) const{
-    MovieNode *current = head;
-    while (current != NULL && current->movieId < movieId) {
-        current = current->next;
-    }
-    if (current != NULL && current->movieId == movieId) {
-        return current->numCopies;
-    } else {
-        return 0;
-    }
-}
-
 int MoviesList::getNumRented( const int movieId ) const{
     MovieNode *current = head;
     while (current != NULL && current->movieId < movieId) {

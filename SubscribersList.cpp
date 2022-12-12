@@ -90,17 +90,6 @@ bool SubscribersList::subscriberExists( const int subscriberId ) const{
     return false;
 }
 
-bool SubscribersList::movieRentedToAnySubscriber( const int movieId ) const {
-    SubscriberNode *current = head;
-    while (current != NULL) {
-        if (current->transactions.movieNotReturned( movieId )) {
-            return true;
-        }
-        current = current->next;
-    }
-    return false;
-}
-
 bool SubscribersList::movieRentedBySubscriber( const int subscriberId, const int movieId ) const {
     SubscriberNode *current = head;
     while (current != NULL && current->subscriberId < subscriberId) {

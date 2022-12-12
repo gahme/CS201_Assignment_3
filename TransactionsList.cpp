@@ -91,10 +91,6 @@ bool TransactionsList::movieEverRented( const int movieId ) const {
     return found;
 }
 
-int TransactionsList::getNumTransactions() const{
-    return transactionCount;
-}
-
 int TransactionsList::getNumMoviesTransactions(const int movieId) const {
     TransactionNode *current = head;
     int count = 0;
