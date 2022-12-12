@@ -2,7 +2,6 @@
 
 #include "TransactionsList.h"
 
-// Sorted link list of subscribers
 class SubscribersList{
     public:
         SubscribersList();

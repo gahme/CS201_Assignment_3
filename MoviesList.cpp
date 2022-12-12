@@ -17,7 +17,6 @@ MoviesList::~MoviesList() {
     }
 }
 
-// Add movie to the list. Do not add if movie already exists and instead print error message
 void MoviesList::addMovie( const int movieId, const int numCopies ) {
     if (movieExists(movieId)) {
         cout << "Movie already exists" << endl;
@@ -47,7 +46,6 @@ void MoviesList::addMovie( const int movieId, const int numCopies ) {
     }
 }
 
-// Remove movie from the list. Do not remove if movie does not exist and instead print error message
 void MoviesList::removeMovie( const int movieId ) {
     if (!movieExists(movieId)) {
         cout << "Movie " << movieId << " does not exist" << endl;
@@ -69,8 +67,6 @@ void MoviesList::removeMovie( const int movieId ) {
     }
 }
 
-
-// Rent a movie. Do not rent if movie does not exist and instead print error message
 void MoviesList::rentMovie( const int movieId ) {
     if (!movieExists(movieId)) {
         cout << "Movie does not exist" << endl;
@@ -89,7 +85,6 @@ void MoviesList::rentMovie( const int movieId ) {
     }
 }
 
-// Return a movie. Do not return if movie does not exist and instead print error message
 void MoviesList::returnMovie( const int movieId ) {
     if (!movieExists(movieId)) {
         cout << "Movie does not exist" << endl;
@@ -108,7 +103,6 @@ void MoviesList::returnMovie( const int movieId ) {
     }
 }
 
-// Show all movies in the list
 void MoviesList::showAllMovies() {
     cout << "Movies in the movie rental system:" << endl;
     MovieNode *current = head;
@@ -118,7 +112,6 @@ void MoviesList::showAllMovies() {
     }
 }
 
-// Movie exists in the list
 bool MoviesList::movieExists( const int movieId ) const{
     MovieNode *current = head;
     while (current != NULL && current->movieId < movieId) {
@@ -127,7 +120,6 @@ bool MoviesList::movieExists( const int movieId ) const{
     return (current != NULL && current->movieId == movieId);
 }
 
-// Get number of copies of a movie
 int MoviesList::getNumCopies( const int movieId ) const{
     MovieNode *current = head;
     while (current != NULL && current->movieId < movieId) {
@@ -140,7 +132,6 @@ int MoviesList::getNumCopies( const int movieId ) const{
     }
 }
 
-// Get number of copies of a movie that are currently rented
 int MoviesList::getNumRented( const int movieId ) const{
     MovieNode *current = head;
     while (current != NULL && current->movieId < movieId) {
@@ -153,7 +144,6 @@ int MoviesList::getNumRented( const int movieId ) const{
     }
 }
 
-// Get number of copies of a movie that are currently available
 int MoviesList::getNumAvailableCopies( const int movieId ) const{
     MovieNode *current = head;
     while (current != NULL && current->movieId < movieId) {

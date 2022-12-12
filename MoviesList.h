@@ -1,6 +1,5 @@
 // Ghulam Ahmed - Section 2 - 22101001
 
-// Sorted link list of movies
 class MoviesList {
     public:
         MoviesList();
