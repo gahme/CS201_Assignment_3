@@ -152,14 +152,3 @@ int SubscribersList::getNumMoviesRented( const int subscriberId ) const {
     }
     return 0;
 }
-
-bool SubscribersList::subscriberRentedAtLeastOneMovie( const int subscriberId) const {
-    SubscriberNode *current = head;
-    while (current != NULL && current->subscriberId < subscriberId) {
-        current = current->next;
-    }
-    if (current != NULL && current->subscriberId == subscriberId) {
-        return !current->transactions.isEmpty();
-    }
-    return 0;
-}

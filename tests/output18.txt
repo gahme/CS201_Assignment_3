@@ -1,0 +1,39 @@
+4 subscribers and 1 movies have been loaded
+
+Movie 42 has been added
+Movie 42 has been rented by subscriber 2
+Movie 42 has been rented by subscriber 3
+Movie 42 has been returned by subscriber 3
+Movie 42 has been returned by subscriber 2
+Movie 42 has been rented by the following subscribers:
+2 returned
+3 returned
+
+Movie 42 has been removed
+Movie 42 has been added
+Movie 42 has been rented by subscriber 2
+Movie 42 has no available copy for renting
+No rental transaction for subscriber 3 and movie 42
+Movie 42 has been returned by subscriber 2
+Movie 42 has been rented by the following subscribers:
+2 returned
+2 returned
+3 returned
+
+Movie 42 has been removed
+Movie 42 has been added
+Movie 42 has been rented by subscriber 4
+Movie 42 has been rented by subscriber 2
+Movie 42 has been rented by subscriber 3
+Movie 42 has no available copy for renting
+Movie 42 has been returned by subscriber 4
+No rental transaction for subscriber 5 and movie 42
+Movie 42 has been returned by subscriber 3
+Movie 42 has been returned by subscriber 2
+Movie 42 has been rented by the following subscribers:
+2 returned
+2 returned
+2 returned
+3 returned
+3 returned
+4 returned

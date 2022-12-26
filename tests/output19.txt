@@ -1,0 +1,29 @@
+10 subscribers and 10 movies have been loaded
+
+Movie 1 has been rented by subscriber 1000
+Movie 3 has been rented by subscriber 1000
+Movie 5 has been rented by subscriber 1000
+Movie 7 has been rented by subscriber 1000
+Movie 9 has been rented by subscriber 1000
+Movie 2 has been rented by subscriber 1000
+Movie 4 has been rented by subscriber 1000
+Movie 6 has been rented by subscriber 1000
+Movie 8 has been rented by subscriber 1000
+Movie 10 has been rented by subscriber 1000
+Movie 1 has been returned by subscriber 1000
+Movie 3 has been returned by subscriber 1000
+Movie 5 has been returned by subscriber 1000
+Movie 7 has been returned by subscriber 1000
+Movie 9 has been returned by subscriber 1000
+
+Subscriber 1000 has rented the following movies:
+1 returned
+2 not returned
+3 returned
+4 not returned
+5 returned
+6 not returned
+7 returned
+8 not returned
+9 returned
+10 not returned

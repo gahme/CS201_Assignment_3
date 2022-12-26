@@ -1,0 +1,5 @@
+10 subscribers and 10 movies have been loaded
+
+Movie 4321 has been rented by subscriber 1000
+
+Movie 4321 cannot be removed -- at least one copy has not been returned

@@ -1,0 +1,19 @@
+4 subscribers and 1 movies have been loaded
+
+Movie 789 has been removed
+Movie 50 has been added
+Movie 60 has been added
+Movie 70 has been added
+Movie 80 has been added
+Movie 90 has been added
+Movie 90 has been rented by subscriber 4
+Movie 80 has been rented by subscriber 4
+Movie 70 has been rented by subscriber 4
+Movie 60 has been rented by subscriber 4
+Movie 50 has been rented by subscriber 4
+Movies in the movie rental system:
+50 5
+60 6
+70 7
+80 8
+90 9

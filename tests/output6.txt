@@ -1,0 +1,16 @@
+10 subscribers and 10 movies have been loaded
+
+Movie 1342 has been rented by subscriber 1000
+Movie 1234 has been rented by subscriber 1000
+Movie 1423 has been rented by subscriber 1000
+Movie 4321 has been rented by subscriber 1000
+Movie 2134 has been rented by subscriber 1000
+Movie 1234 has been rented by subscriber 1000
+
+Subscriber 1000 has rented the following movies:
+1234 not returned
+1234 not returned
+1342 not returned
+1423 not returned
+2134 not returned
+4321 not returned

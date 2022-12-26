@@ -1,0 +1,60 @@
+10 subscribers and 10 movies have been loaded
+
+Subscribers in the movie rental system:
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+
+Subscriber 2000 has been removed
+
+Subscribers in the movie rental system:
+1000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+
+Subscriber 1000 has been removed
+
+Subscribers in the movie rental system:
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+
+Subscriber 9000 has been removed
+
+Subscribers in the movie rental system:
+3000
+4000
+5000
+6000
+7000
+8000
+10000
+
+Subscriber 2000 does not exist
+
+Subscribers in the movie rental system:
+3000
+4000
+5000
+6000
+7000
+8000
+10000

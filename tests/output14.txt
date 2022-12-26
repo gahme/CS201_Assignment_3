@@ -1,0 +1,303 @@
+4 subscribers and 1 movies have been loaded
+
+Movie 2 has been added
+Movie 3 has been added
+Movie 4 has been added
+Movie 5 has been added
+Movie 6 has been added
+Movie 7 has been added
+Movie 8 has been added
+Movie 9 has been added
+Movie 10 has been added
+Movie 11 has been added
+Movie 12 has been added
+Movie 13 has been added
+Movie 14 has been added
+Movie 15 has been added
+Movie 16 has been added
+Movie 17 has been added
+Movie 18 has been added
+Movie 19 has been added
+Movie 20 has been added
+Movie 21 has been added
+Movie 22 has been added
+Movie 23 has been added
+Movie 24 has been added
+Movie 25 has been added
+Movie 26 has been added
+Movie 27 has been added
+Movie 28 has been added
+Movie 29 has been added
+Movie 30 has been added
+Movie 31 has been added
+Movie 32 has been added
+Movie 33 has been added
+Movie 34 has been added
+Movie 35 has been added
+Movie 36 has been added
+Movie 37 has been added
+Movie 38 has been added
+Movie 39 has been added
+Movie 40 has been added
+Movie 41 has been added
+Movie 42 has been added
+Movie 43 has been added
+Movie 44 has been added
+Movie 45 has been added
+Movie 46 has been added
+Movie 47 has been added
+Movie 48 has been added
+Movie 49 has been added
+Movie 50 has been added
+Movie 51 has been added
+Movie 52 has been added
+Movie 53 has been added
+Movie 54 has been added
+Movie 55 has been added
+Movie 56 has been added
+Movie 57 has been added
+Movie 58 has been added
+Movie 59 has been added
+Movie 60 has been added
+Movie 61 has been added
+Movie 62 has been added
+Movie 63 has been added
+Movie 64 has been added
+Movie 65 has been added
+Movie 66 has been added
+Movie 67 has been added
+Movie 68 has been added
+Movie 69 has been added
+Movie 70 has been added
+Movie 71 has been added
+Movie 72 has been added
+Movie 73 has been added
+Movie 74 has been added
+Movie 75 has been added
+Movie 76 has been added
+Movie 77 has been added
+Movie 78 has been added
+Movie 79 has been added
+Movie 80 has been added
+Movie 81 has been added
+Movie 82 has been added
+Movie 83 has been added
+Movie 84 has been added
+Movie 85 has been added
+Movie 86 has been added
+Movie 87 has been added
+Movie 88 has been added
+Movie 89 has been added
+Movie 90 has been added
+Movie 91 has been added
+Movie 92 has been added
+Movie 93 has been added
+Movie 94 has been added
+Movie 95 has been added
+Movie 96 has been added
+Movie 97 has been added
+Movie 98 has been added
+Movie 99 has been added
+Movie 100 has been added
+Movies in the movie rental system:
+2 2
+3 2
+4 2
+5 2
+6 2
+7 2
+8 2
+9 2
+10 2
+11 2
+12 2
+13 2
+14 2
+15 2
+16 2
+17 2
+18 2
+19 2
+20 2
+21 2
+22 2
+23 2
+24 2
+25 2
+26 2
+27 2
+28 2
+29 2
+30 2
+31 2
+32 2
+33 2
+34 2
+35 2
+36 2
+37 2
+38 2
+39 2
+40 2
+41 2
+42 2
+43 2
+44 2
+45 2
+46 2
+47 2
+48 2
+49 2
+50 2
+51 2
+52 2
+53 2
+54 2
+55 2
+56 2
+57 2
+58 2
+59 2
+60 2
+61 2
+62 2
+63 2
+64 2
+65 2
+66 2
+67 2
+68 2
+69 2
+70 2
+71 2
+72 2
+73 2
+74 2
+75 2
+76 2
+77 2
+78 2
+79 2
+80 2
+81 2
+82 2
+83 2
+84 2
+85 2
+86 2
+87 2
+88 2
+89 2
+90 2
+91 2
+92 2
+93 2
+94 2
+95 2
+96 2
+97 2
+98 2
+99 2
+100 2
+789 1
+Movie 100 has been removed
+Movie 99 has been removed
+Movie 98 has been removed
+Movie 97 has been removed
+Movie 96 has been removed
+Movie 95 has been removed
+Movie 94 has been removed
+Movie 93 has been removed
+Movie 92 has been removed
+Movie 91 has been removed
+Movie 90 has been removed
+Movie 89 has been removed
+Movie 88 has been removed
+Movie 87 has been removed
+Movie 86 has been removed
+Movie 85 has been removed
+Movie 84 has been removed
+Movie 83 has been removed
+Movie 82 has been removed
+Movie 81 has been removed
+Movie 80 has been removed
+Movie 79 has been removed
+Movie 78 has been removed
+Movie 77 has been removed
+Movie 76 has been removed
+Movie 75 has been removed
+Movie 74 has been removed
+Movie 73 has been removed
+Movie 72 has been removed
+Movie 71 has been removed
+Movie 70 has been removed
+Movie 69 has been removed
+Movie 68 has been removed
+Movie 67 has been removed
+Movie 66 has been removed
+Movie 65 has been removed
+Movie 64 has been removed
+Movie 63 has been removed
+Movie 62 has been removed
+Movie 61 has been removed
+Movie 60 has been removed
+Movie 59 has been removed
+Movie 58 has been removed
+Movie 57 has been removed
+Movie 56 has been removed
+Movie 55 has been removed
+Movie 54 has been removed
+Movie 53 has been removed
+Movie 52 has been removed
+Movie 51 has been removed
+Movie 50 has been removed
+Movie 49 has been removed
+Movie 48 has been removed
+Movie 47 has been removed
+Movie 46 has been removed
+Movie 45 has been removed
+Movie 44 has been removed
+Movie 43 has been removed
+Movie 42 has been removed
+Movie 41 has been removed
+Movie 40 has been removed
+Movie 39 has been removed
+Movie 38 has been removed
+Movie 37 has been removed
+Movie 36 has been removed
+Movie 35 has been removed
+Movie 34 has been removed
+Movie 33 has been removed
+Movie 32 has been removed
+Movie 31 has been removed
+Movie 30 has been removed
+Movie 29 has been removed
+Movie 28 has been removed
+Movie 27 has been removed
+Movie 26 has been removed
+Movie 25 has been removed
+Movie 24 has been removed
+Movie 23 has been removed
+Movie 22 has been removed
+Movie 21 has been removed
+Movie 20 has been removed
+Movie 19 has been removed
+Movie 18 has been removed
+Movie 17 has been removed
+Movie 16 has been removed
+Movie 15 has been removed
+Movie 14 has been removed
+Movie 13 has been removed
+Movie 12 has been removed
+Movie 11 has been removed
+Movie 10 has been removed
+Movie 9 has been removed
+Movie 8 has been removed
+Movie 7 has been removed
+Movie 6 has been removed
+Movie 5 has been removed
+Movie 4 has been removed
+Movie 3 has been removed
+Movies in the movie rental system:
+2 2
+789 1

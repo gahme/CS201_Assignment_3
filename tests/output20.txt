@@ -1,0 +1,132 @@
+10 subscribers and 10 movies have been loaded
+
+Movie 1 has been rented by subscriber 1000
+Movie 2 has been rented by subscriber 1000
+Movie 3 has been rented by subscriber 1000
+Movie 4 has been rented by subscriber 1000
+Movie 5 has been rented by subscriber 1000
+Movie 6 has been rented by subscriber 1000
+Movie 7 has been rented by subscriber 1000
+Movie 8 has been rented by subscriber 1000
+Movie 9 has been rented by subscriber 1000
+Movie 10 has been rented by subscriber 1000
+Movie 2 has been rented by subscriber 2000
+Movie 3 has been rented by subscriber 2000
+Movie 4 has been rented by subscriber 2000
+Movie 5 has been rented by subscriber 2000
+Movie 6 has been rented by subscriber 2000
+Movie 7 has been rented by subscriber 2000
+Movie 8 has been rented by subscriber 2000
+Movie 9 has been rented by subscriber 2000
+Movie 10 has been rented by subscriber 2000
+Movie 3 has been rented by subscriber 3000
+Movie 4 has been rented by subscriber 3000
+Movie 5 has been rented by subscriber 3000
+Movie 6 has been rented by subscriber 3000
+Movie 7 has been rented by subscriber 3000
+Movie 8 has been rented by subscriber 3000
+Movie 9 has been rented by subscriber 3000
+Movie 10 has been rented by subscriber 3000
+Movie 4 has been rented by subscriber 4000
+Movie 5 has been rented by subscriber 4000
+Movie 6 has been rented by subscriber 4000
+Movie 7 has been rented by subscriber 4000
+Movie 8 has been rented by subscriber 4000
+Movie 9 has been rented by subscriber 4000
+Movie 10 has been rented by subscriber 4000
+Movie 5 has been rented by subscriber 5000
+Movie 6 has been rented by subscriber 5000
+Movie 7 has been rented by subscriber 5000
+Movie 8 has been rented by subscriber 5000
+Movie 9 has been rented by subscriber 5000
+Movie 10 has been rented by subscriber 5000
+Movie 6 has been rented by subscriber 6000
+Movie 7 has been rented by subscriber 6000
+Movie 8 has been rented by subscriber 6000
+Movie 9 has been rented by subscriber 6000
+Movie 10 has been rented by subscriber 6000
+Movie 7 has been rented by subscriber 7000
+Movie 8 has been rented by subscriber 7000
+Movie 9 has been rented by subscriber 7000
+Movie 10 has been rented by subscriber 7000
+Movie 8 has been rented by subscriber 8000
+Movie 9 has been rented by subscriber 8000
+Movie 10 has been rented by subscriber 8000
+Movie 9 has been rented by subscriber 9000
+Movie 10 has been rented by subscriber 9000
+Movie 10 has been rented by subscriber 10000
+
+Movie 1 has been rented by the following subscribers:
+1000 not returned
+
+Movie 2 has been rented by the following subscribers:
+1000 not returned
+2000 not returned
+
+Movie 3 has been rented by the following subscribers:
+1000 not returned
+2000 not returned
+3000 not returned
+
+Movie 4 has been rented by the following subscribers:
+1000 not returned
+2000 not returned
+3000 not returned
+4000 not returned
+
+Movie 5 has been rented by the following subscribers:
+1000 not returned
+2000 not returned
+3000 not returned
+4000 not returned
+5000 not returned
+
+Movie 6 has been rented by the following subscribers:
+1000 not returned
+2000 not returned
+3000 not returned
+4000 not returned
+5000 not returned
+6000 not returned
+
+Movie 7 has been rented by the following subscribers:
+1000 not returned
+2000 not returned
+3000 not returned
+4000 not returned
+5000 not returned
+6000 not returned
+7000 not returned
+
+Movie 8 has been rented by the following subscribers:
+1000 not returned
+2000 not returned
+3000 not returned
+4000 not returned
+5000 not returned
+6000 not returned
+7000 not returned
+8000 not returned
+
+Movie 9 has been rented by the following subscribers:
+1000 not returned
+2000 not returned
+3000 not returned
+4000 not returned
+5000 not returned
+6000 not returned
+7000 not returned
+8000 not returned
+9000 not returned
+
+Movie 10 has been rented by the following subscribers:
+1000 not returned
+2000 not returned
+3000 not returned
+4000 not returned
+5000 not returned
+6000 not returned
+7000 not returned
+8000 not returned
+9000 not returned
+10000 not returned

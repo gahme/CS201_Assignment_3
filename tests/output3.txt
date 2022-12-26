@@ -1,0 +1,55 @@
+9 subscribers and 15 movies have been loaded
+
+Movie 600 has been removed
+Movie 600 does not exist
+Movie 70 has been removed
+Movie 99 has been added
+Movie 10 has been rented by subscriber 1111
+Movie 20 has been rented by subscriber 1111
+Movie 10 has been rented by subscriber 7777
+Movie 10 has no available copy for renting
+Movie 80 has been rented by subscriber 7777
+Movie 100 has been rented by subscriber 6666
+Movie 40 has been rented by subscriber 4444
+Movie 50 has been rented by subscriber 4444
+Subscriber 1234 does not exist
+Movie 33 does not exist
+Subscriber 1234 and movie 33 do not exist
+
+Movie 80 has been returned by subscriber 7777
+Movie 100 has been returned by subscriber 6666
+Movie 20 has been returned by subscriber 1111
+No rental transaction for subscriber 4444 and movie 10
+No rental transaction for subscriber 1111 and movie 20
+
+Movie 80 has been rented by subscriber 3333
+Movie 100 has been rented by subscriber 8888
+Movie 100 has been rented by subscriber 1111
+Movie 100 has been rented by subscriber 1111
+
+Movie 20 has been rented by subscriber 1111
+Movie 20 has been returned by subscriber 1111
+Movie 20 has been rented by subscriber 1111
+
+Subscriber 1111 has rented the following movies:
+10 not returned
+20 returned
+20 returned
+20 not returned
+100 not returned
+100 not returned
+Subscriber 8888 has rented the following movies:
+100 not returned
+Subscriber 2222 has not rented any movies
+Subscriber 1234 does not exist
+
+Movie 10 has been rented by the following subscribers:
+1111 not returned
+7777 not returned
+Movie 100 has been rented by the following subscribers:
+1111 not returned
+1111 not returned
+6666 returned
+8888 not returned
+Movie 30 has not been rented by any subscriber
+Movie 70 does not exist

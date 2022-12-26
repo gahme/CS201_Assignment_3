@@ -1,0 +1,22 @@
+4 subscribers and 1 movies have been loaded
+
+Movie 786 has been added
+Movie 788 has been added
+Movie 790 has been added
+Movie 792 has been added
+Movie 785 has been added
+Movie 787 has been added
+Movie 789 already exists
+Movie 791 has been added
+Movie 793 has been added
+
+Movies in the movie rental system:
+785 1
+786 1
+787 1
+788 1
+789 1
+790 1
+791 1
+792 1
+793 1

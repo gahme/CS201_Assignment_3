@@ -1,0 +1,24 @@
+10 subscribers and 10 movies have been loaded
+
+Movie 4321 has been rented by subscriber 2000
+Movie 4321 has been rented by subscriber 1000
+
+Movie 4321 has been rented by the following subscribers:
+1000 not returned
+2000 not returned
+
+Movie 4321 has been returned by subscriber 1000
+
+Movie 4321 has been rented by the following subscribers:
+1000 returned
+2000 not returned
+
+Subscriber 1000 has been removed
+
+Movie 4321 has been rented by the following subscribers:
+2000 not returned
+
+Movie 4321 has been returned by subscriber 2000
+Subscriber 2000 has been removed
+
+Movie 4321 has not been rented by any subscriber

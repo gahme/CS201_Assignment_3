@@ -1,0 +1,5 @@
+10 subscribers and 10 movies have been loaded
+
+Movie 1234 has been rented by subscriber 1000
+
+Subscriber 1000 cannot be removed -- at least one movie has not been returned

@@ -1,0 +1,18 @@
+10 subscribers and 10 movies have been loaded
+
+Movie 1234 already exists
+Movie 28 has been added
+Movie 28 already exists
+
+Movies in the movie rental system:
+28 3
+1234 2
+1342 1
+1423 1
+2134 2
+2413 6
+3124 4
+3214 1
+4231 7
+4312 3
+4321 3

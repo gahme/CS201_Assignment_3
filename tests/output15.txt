@@ -1,0 +1,83 @@
+4 subscribers and 1 movies have been loaded
+
+Movie 10 has been added
+Movie 11 has been added
+Movie 12 has been added
+Movie 13 has been added
+Movie 14 has been added
+Movie 15 has been added
+Movie 16 has been added
+Movie 17 has been added
+Movie 18 has been added
+Movie 19 has been added
+Movie 20 has been added
+Movie 21 has been added
+Movie 22 has been added
+Movie 23 has been added
+Movie 24 has been added
+Movie 25 has been added
+Movie 26 has been added
+Movie 27 has been added
+Movie 28 has been added
+Movie 29 has been added
+Movie 10 has been rented by subscriber 2
+Movie 11 has been rented by subscriber 2
+Movie 12 has been rented by subscriber 2
+Movie 13 has been rented by subscriber 2
+Movie 14 has been rented by subscriber 2
+Movie 15 has been rented by subscriber 2
+Movie 16 has been rented by subscriber 2
+Movie 17 has been rented by subscriber 2
+Movie 18 has been rented by subscriber 2
+Movie 19 has been rented by subscriber 2
+Movie 20 has been rented by subscriber 2
+Movie 21 has been rented by subscriber 2
+Movie 22 has been rented by subscriber 2
+Movie 23 has been rented by subscriber 2
+Movie 24 has been rented by subscriber 2
+Movie 25 has been rented by subscriber 2
+Movie 26 has been rented by subscriber 2
+Movie 27 has been rented by subscriber 2
+Movie 28 has been rented by subscriber 2
+Movie 29 has been rented by subscriber 2
+Movie 29 has been returned by subscriber 2
+Movie 28 has been returned by subscriber 2
+Movie 27 has been returned by subscriber 2
+Movie 26 has been returned by subscriber 2
+Movie 25 has been returned by subscriber 2
+Movie 24 has been returned by subscriber 2
+Movie 23 has been returned by subscriber 2
+Movie 22 has been returned by subscriber 2
+Movie 21 has been returned by subscriber 2
+Movie 20 has been returned by subscriber 2
+Movie 19 has been returned by subscriber 2
+Movie 18 has been returned by subscriber 2
+Movie 17 has been returned by subscriber 2
+Movie 16 has been returned by subscriber 2
+Movie 15 has been returned by subscriber 2
+Movie 14 has been returned by subscriber 2
+Movie 13 has been returned by subscriber 2
+Movie 12 has been returned by subscriber 2
+Movie 11 has been returned by subscriber 2
+Movie 10 has been returned by subscriber 2
+Subscriber 2 has rented the following movies:
+10 returned
+11 returned
+12 returned
+13 returned
+14 returned
+15 returned
+16 returned
+17 returned
+18 returned
+19 returned
+20 returned
+21 returned
+22 returned
+23 returned
+24 returned
+25 returned
+26 returned
+27 returned
+28 returned
+29 returned

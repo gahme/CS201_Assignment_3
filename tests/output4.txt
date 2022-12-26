@@ -1,0 +1,136 @@
+Input file my_movies.txt does not exist
+
+9 subscribers and 15 movies have been loaded
+
+Movies in the movie rental system:
+10 2
+20 1
+30 1
+40 2
+50 6
+60 3
+70 2
+80 1
+90 1
+100 3
+200 1
+300 3
+400 1
+500 1
+600 1
+
+Subscribers in the movie rental system:
+1111
+2222
+3333
+4444
+5555
+6666
+7777
+8888
+9999
+
+Movie 600 has been removed
+Movie 600 does not exist
+Movie 70 has been removed
+
+Movie 99 has been added
+
+Movies in the movie rental system:
+10 2
+20 1
+30 1
+40 2
+50 6
+60 3
+80 1
+90 1
+99 3
+100 3
+200 1
+300 3
+400 1
+500 1
+
+Movie 10 has been rented by subscriber 1111
+Movie 20 has been rented by subscriber 1111
+Movie 10 has been rented by subscriber 7777
+Movie 10 has no available copy for renting
+Movie 80 has been rented by subscriber 7777
+Movie 100 has been rented by subscriber 6666
+Movie 40 has been rented by subscriber 4444
+Movie 50 has been rented by subscriber 4444
+Subscriber 1234 does not exist
+Movie 33 does not exist
+Subscriber 1234 and movie 33 do not exist
+
+Movie 80 has been returned by subscriber 7777
+Movie 100 has been returned by subscriber 6666
+Movie 20 has been returned by subscriber 1111
+No rental transaction for subscriber 4444 and movie 10
+No rental transaction for subscriber 1111 and movie 20
+
+Movie 80 has been rented by subscriber 3333
+Movie 100 has been rented by subscriber 8888
+Movie 100 has been rented by subscriber 1111
+Movie 100 has been rented by subscriber 1111
+
+Movie 20 has been rented by subscriber 1111
+Movie 20 has been returned by subscriber 1111
+Movie 20 has been rented by subscriber 1111
+
+Subscriber 1111 has rented the following movies:
+10 not returned
+20 returned
+20 returned
+20 not returned
+100 not returned
+100 not returned
+Subscriber 8888 has rented the following movies:
+100 not returned
+Subscriber 2222 has not rented any movies
+Subscriber 1234 does not exist
+
+Movie 10 has been rented by the following subscribers:
+1111 not returned
+7777 not returned
+Movie 100 has been rented by the following subscribers:
+1111 not returned
+1111 not returned
+6666 returned
+8888 not returned
+Movie 30 has not been rented by any subscriber
+Movie 70 does not exist
+
+Movie 100 cannot be removed -- at least one copy has not been returned
+
+Subscriber 1111 cannot be removed -- at least one movie has not been returned
+
+Subscriber 5555 has been removed
+
+Subscriber 6666 has been removed
+
+Subscribers in the movie rental system:
+1111
+2222
+3333
+4444
+7777
+8888
+9999
+
+Movies in the movie rental system:
+10 2
+20 1
+30 1
+40 2
+50 6
+60 3
+80 1
+90 1
+99 3
+100 3
+200 1
+300 3
+400 1
+500 1

@@ -15,7 +15,6 @@ class SubscribersList{
         void showSubscriber( const int subscriberId ) const;
         void showAllSubscribers() const;
         void showSubscribersThatRentedMovie( const int movieId ) const;
-        bool subscriberRentedAtLeastOneMovie(const int subscriberId) const;
         int getNumMoviesRented( const int subscriberId ) const;
     private:
         struct SubscriberNode {

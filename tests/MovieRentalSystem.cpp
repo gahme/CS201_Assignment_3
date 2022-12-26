@@ -43,7 +43,7 @@ MovieRentalSystem::~MovieRentalSystem() {
 
 void MovieRentalSystem::addMovie( const int movieId, const int numCopies ) {
     if ( movies.movieExists( movieId ) ) {
-        cout << "Movie " << movieId << " already exists" << endl;
+        cout << "Movie already exists" << endl;
     } else {
         movies.addMovie( movieId, numCopies );
         cout << "Movie " << movieId << " has been added" << endl;
@@ -60,7 +60,7 @@ void MovieRentalSystem::removeMovie( const int movieId ) {
 
 void MovieRentalSystem::removeSubscriber( const int subscriberId ) {
     if ( !subscribers.subscriberExists( subscriberId ) ) {
-        cout << "Subscriber " << subscriberId << " does not exist" << endl;
+        cout << "Subscriber does not exist" << endl;
     } else if ( subscribers.getNumMoviesRented( subscriberId ) > 0 ) {
         cout << "Subscriber " << subscriberId << " cannot be removed -- at least one movie has not been returned" << endl;
     } else {
@@ -98,8 +98,6 @@ void MovieRentalSystem::returnMovie( const int subscriberId, const int movieId )
 void MovieRentalSystem::showMoviesRentedBy( const int subscriberId ) const{
     if ( !subscribers.subscriberExists( subscriberId ) ) {
         cout << "Subscriber " << subscriberId << " does not exist" << endl;
-    } else if ( subscribers.getNumMoviesRented( subscriberId ) == 0 && subscribers.subscriberRentedAtLeastOneMovie(subscriberId)) {
-        subscribers.showSubscriber( subscriberId );
     } else if ( subscribers.getNumMoviesRented( subscriberId ) == 0 ) {
         cout << "Subscriber " << subscriberId << " has not rented any movies" << endl;
     } else {

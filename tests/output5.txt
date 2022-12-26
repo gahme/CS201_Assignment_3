@@ -1,0 +1,46 @@
+10 subscribers and 10 movies have been loaded
+
+Movie 4321 has been rented by subscriber 1000
+Movie 4321 has been rented by subscriber 1000
+Movie 1342 has been rented by subscriber 1000
+Movie 4321 has been returned by subscriber 1000
+
+Subscriber 1000 has rented the following movies:
+1342 not returned
+4321 returned
+4321 not returned
+
+Movie 4321 has been rented by subscriber 1000
+Movie 4321 has been rented by subscriber 1000
+Movie 4321 has no available copy for renting
+
+Subscriber 1000 has rented the following movies:
+1342 not returned
+4321 returned
+4321 not returned
+4321 not returned
+4321 not returned
+
+Movie 1342 has been returned by subscriber 1000
+No rental transaction for subscriber 1000 and movie 1342
+Movie 4321 has been returned by subscriber 1000
+Subscriber 1000 has rented the following movies:
+1342 returned
+4321 returned
+4321 returned
+4321 not returned
+4321 not returned
+
+Movie 4321 cannot be removed -- at least one copy has not been returned
+
+Movie 4321 has been returned by subscriber 1000
+Movie 4321 has been returned by subscriber 1000
+
+Movie 4321 has been removed
+
+Subscriber 1000 has rented the following movies:
+1342 returned
+4321 returned
+4321 returned
+4321 returned
+4321 returned

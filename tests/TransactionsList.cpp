@@ -114,7 +114,3 @@ int TransactionsList::getNumMoviesNotReturned() const {
     }
     return count;
 }
-
-bool TransactionsList::isEmpty() const{
-    return transactionCount == 0;
-}
